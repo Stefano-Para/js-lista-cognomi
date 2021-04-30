@@ -28,7 +28,11 @@ console.log(listed + "         è la lista in ordine alfabetico dell'array con t
 // 4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova
 for (var i = 0; i < listedOrdinati.length; i++) {
     var posizioneCognome = "prova " + i + cognome;
-    console.log("Posizione" + (i + 1) + " " + listedOrdinati[i]);
+    console.log("Posizione " + (i + 1) + " " + listedOrdinati[i]);
 }
 
+
+// Come faccio a far capire al mio sort() di mettere in ordine alfabetico rispetto alla lettera e non rispetto al carattere maiuscolo/minuscolo? Esiste un modo? Devo dargli una libreria ESEMPIO:
+// A && a = 0;
+// B && b = 1; etc? 
 
